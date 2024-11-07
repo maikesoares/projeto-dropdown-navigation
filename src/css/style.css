@@ -1,0 +1,76 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--almost-white);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+header nav {
+  width: 70%;
+}
+
+header nav .menu-principal {
+  display: flex;
+  align-self: flex-start;
+  gap: 40px;
+  position: relative;
+  color: var(--medium-gray);
+}
+
+header nav .menu-principal li:hover {
+  color: #151515;
+  cursor: pointer;
+}
+
+header nav .menu-principal .sub-menu {
+  display: none;
+}
+
+header nav .menu-principal li:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: absolute;
+  padding: 30px;
+  background-color: #fff;
+  left: -60px;
+  border-radius: 10px;
+}
+
+header nav .menu-principal li:hover .sub-menu.company {
+  left: 100px;
+}
+
+header .register {
+  display: flex;
+  gap: 40px;
+}
+
+header .register button {
+  background: none;
+  color: var(--medium-gray);
+  padding: 13px 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+header .register button:hover {
+  color: #151515;
+}
+
+header .register .btn-register {
+  border: 1.5px solid var(--medium-gray);
+}
+
+header .register .btn-register:hover {
+  border: 1.5px solid #151515;
+  
+}
+

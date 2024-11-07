@@ -11,7 +11,16 @@
       href="./src/images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
@@ -20,10 +29,10 @@
       <img src="./src/images/logo.svg" alt="Snap logo" />
 
       <nav>
-        <ul>
+        <ul class="menu-principal">
           <li>
             Features
-            <ul>
+            <ul class="sub-menu">
               <li><a href="#">Todo List</a></li>
               <li><a href="#">Calendar</a></li>
               <li><a href="#">Reminders</a></li>
@@ -33,7 +42,7 @@
 
           <li>
             Company
-            <ul>
+            <ul class="sub-menu company">
               <li><a href="#">History</a></li>
               <li><a href="#">Our Team</a></li>
               <li><a href="#">Blog</a></li>
@@ -45,9 +54,9 @@
         </ul>
       </nav>
 
-      <div>
+      <div class="register">
         <button>Login</button>
-        <button>Register</button>
+        <button class="btn-register">Register</button>
       </div>
     </header>
 
