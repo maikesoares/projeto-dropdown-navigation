@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: var(--almost-white);
 }
@@ -71,6 +71,66 @@ header .register .btn-register {
 
 header .register .btn-register:hover {
   border: 1.5px solid #151515;
-  
+}
+
+main {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 125px;
+  padding: 30px;
+}
+
+main .informations {
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .informations .title {
+  font-size: 80px;
+  letter-spacing: -1.111px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 80px;
+  margin-bottom: 48px;
+}
+
+main .informations .content {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--medium-gray);
+  width: 445px;
+  margin-bottom: 51px;
+}
+
+main .informations .btn-learn-more {
+  align-self: flex-start;
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 116px;
+  border: 1px solid transparent;
+}
+
+main .informations .btn-learn-more:hover {
+  background-color: #fff;
+  color: #151515;
+  border: 1px solid var(--almost-black)
+}
+
+main .hero-img {
+  width: 80%;
+}
+
+main .logo {
+  display: flex;
+  gap: 40px;
 }
 
