@@ -23,6 +23,14 @@ header nav .menu-principal {
   color: var(--medium-gray);
 }
 
+header nav .menu-principal .arrow {
+  margin-left: 9px;
+}
+
+header nav .menu-principal li:hover img {
+  transform: rotate(180deg);
+}
+
 header nav .menu-principal li:hover {
   color: #151515;
   cursor: pointer;
@@ -30,6 +38,10 @@ header nav .menu-principal li:hover {
 
 header nav .menu-principal .sub-menu {
   display: none;
+}
+
+header nav .menu-principal .sub-menu .icon {
+  margin-right: 15px;
 }
 
 header nav .menu-principal li:hover .sub-menu {
@@ -71,6 +83,10 @@ header .register .btn-register {
 
 header .register .btn-register:hover {
   border: 1.5px solid #151515;
+}
+
+header .menu-hamburguer {
+  display: none;
 }
 
 main {
