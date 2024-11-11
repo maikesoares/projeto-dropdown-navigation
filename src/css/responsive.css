@@ -1,4 +1,4 @@
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
   header nav .menu-principal {
     display: none;
   }
@@ -27,8 +27,13 @@
 
   header .menu-hamburguer {
     display: block;
+    cursor: pointer;
   }
 
+  header .menu-close {
+    cursor: pointer;
+  }
+  
   header .menu-principal.ativo {
     display: flex;
     flex-direction: column;
