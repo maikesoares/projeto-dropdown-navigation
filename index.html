@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/variables.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
@@ -29,7 +30,9 @@
       <img src="./src/images/logo.svg" alt="Snap logo" />
 
       <nav>
-        <ul class="menu-principal">
+        <div class="overlay ativo"></div>
+        <ul class="menu-principal ativo">
+          <img class="menu-close" src="./src/images/icon-close-menu.svg" alt="Icon close-menu"></img>
           <li>
             Features 
             <img class="arrow" src="./src/images/icon-arrow-down.svg" alt="features arrow">
@@ -73,10 +76,15 @@
 
           <li><a href="#">Careers</a></li>
           <li><a href="#">About</a></li>
+
+          <div class="register-mobile">
+            <button>Login</button>
+            <button class="btn-register">Register</button>
+          </div>
         </ul>
       </nav>
 
-      <div class="register">
+      <div class="register-desktop">
         <button>Login</button>
         <button class="btn-register">Register</button>
       </div>
